@@ -173,4 +173,80 @@ resenas.addEventListener('mouseout', function() {
   agregar.style.rotate = '0deg'
 })
 
+let btneste1 = document.getElementById('btneste1')
+let btneste2 = document.getElementById('btneste2')
+let btneste3 = document.getElementById('btneste3')
+let btneste4 = document.getElementById('btneste4')
+let btneste5 = document.getElementById('btneste5')
+let estrella1 = document.getElementById('estrella1')
+let estrella2 = document.getElementById('estrella2')
+let estrella3 = document.getElementById('estrella3')
+let estrella4 = document.getElementById('estrella4')
+let estrella5 = document.getElementById('estrella5')
+let cerrar = document.getElementById('cerrar')
+let opiniones = document.getElementById('opiniones')
+
+
+btneste1.addEventListener('click', function() {
+  estrella1.style.backgroundColor = 'yellow'
+  estrella2.style.backgroundColor = 'white'
+  estrella3.style.backgroundColor = 'white'
+  estrella4.style.backgroundColor = 'white'
+  estrella5.style.backgroundColor = 'white'
+})
+
+btneste2.addEventListener('click', function() {
+  estrella1.style.backgroundColor = 'yellow'
+  estrella2.style.backgroundColor = 'yellow'
+  estrella3.style.backgroundColor = 'white'
+  estrella4.style.backgroundColor = 'white'
+  estrella5.style.backgroundColor = 'white'
+})
+
+btneste3.addEventListener('click', function() {
+  estrella1.style.backgroundColor = 'yellow'
+  estrella2.style.backgroundColor = 'yellow'
+  estrella3.style.backgroundColor = 'yellow'
+  estrella4.style.backgroundColor = 'white'
+  estrella5.style.backgroundColor = 'white'
+})
+
+btneste4.addEventListener('click', function() {
+  estrella1.style.backgroundColor = 'yellow'
+  estrella2.style.backgroundColor = 'yellow'
+  estrella3.style.backgroundColor = 'yellow'
+  estrella4.style.backgroundColor = 'yellow'
+  estrella5.style.backgroundColor = 'white'
+})
+
+btneste5.addEventListener('click', function() {
+  estrella1.style.backgroundColor = 'yellow'
+  estrella2.style.backgroundColor = 'yellow'
+  estrella3.style.backgroundColor = 'yellow'
+  estrella4.style.backgroundColor = 'yellow'
+  estrella5.style.backgroundColor = 'yellow'
+})
+
+cerrar.addEventListener('click', function(close) {
+  opiniones.style.display = 'none'
+  untech.style.overflowY = 'visible'
+  estrella1.style.backgroundColor = 'white'
+  estrella2.style.backgroundColor = 'white'
+  estrella3.style.backgroundColor = 'white'
+  estrella4.style.backgroundColor = 'white'
+  estrella5.style.backgroundColor = 'white'
+})
+
+let resena = document.getElementById('rese')
+
+resena.addEventListener('click',function() {
+  opiniones.style.display = 'block'
+  opiniones.classList.add('apear')
+  untech.style.overflowY = 'hidden'
+})
+
+
+
+let untech = document.getElementById('untech')
+
 

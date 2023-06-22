@@ -802,7 +802,21 @@ Apariciones
     top: 0;
 }
 
+.apear {
+    animation: AP .4s forwards;
+    transform-origin: center;
+}
 
+@keyframes AP {
+    from {
+        
+        scale: 0;
+    }
+    to{
+        
+        scale: 1;
+    }
+}
 
 /*
 

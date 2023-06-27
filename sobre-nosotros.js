@@ -21,7 +21,7 @@ menu.addEventListener('click',function() {
 
   oscuro1.style.opacity = '0.5'
   oscuro2.style.opacity = '0.5'
-
+  htmlEntero.style.overflowY = 'hidden'
 
   if(menuback.style.width === '300px') {
   menuback.style.width = '00px'
@@ -42,6 +42,7 @@ cruz.addEventListener('click', function() {
   menuback.style.marginLeft = '0px'
   oscuro1.style.opacity = '1'
   oscuro2.style.opacity = '1'
+  htmlEntero.style.overflowY = 'auto'
 })
 
 

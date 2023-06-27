@@ -60,3 +60,81 @@ window.addEventListener('scroll', function() {
 })
 
 
+let segundo = document.getElementById('segundo')
+let tercero = document.getElementById('tercero')
+let cuarto = document.getElementById('cuarto')
+let quinto = document.getElementById('quinto')
+let sexto = document.getElementById('sexto')
+
+window.addEventListener('scroll', function(colores) {
+
+  let scroll1 = this.window.pageYOffset || document.documentElement.scrollTop
+
+  if(scroll1 > 100 ) {
+    segundo.style.backgroundColor = '#001133'
+    segundo.style.color = 'white'
+    tercero.style.color = 'rgb(160, 155, 155)'
+    cuarto.style.color = 'rgb(160, 155, 155)'
+    quinto.style.color = 'rgb(160, 155, 155)'
+    sexto.style.color  = 'rgb(160, 155, 155)'
+    tercero.style.backgroundColor = 'rgb(248,249,250)'
+    cuarto.style.backgroundColor = 'rgb(248,249,250)'
+    quinto.style.backgroundColor = 'rgb(248,249,250)'
+    sexto.style.backgroundColor = 'rgb(248,249,250)'
+
+  }
+
+  if(scroll1 >= 400) {
+    segundo.style.backgroundColor = 'rgb(248,249,250)'
+    tercero.style.backgroundColor = '#001133'
+    tercero.style.color = 'white'
+    segundo.style.color = 'rgb(160, 155, 155)'
+    cuarto.style.color = 'rgb(160, 155, 155)'
+    quinto.style.color = 'rgb(160, 155, 155)'
+    sexto.style.color  = 'rgb(160, 155, 155)'
+    cuarto.style.backgroundColor = 'rgb(248,249,250)'
+    quinto.style.backgroundColor = 'rgb(248,249,250)'
+    sexto.style.backgroundColor = 'rgb(248,249,250)'
+  }
+
+  if(scroll1 >= 1400) {
+    segundo.style.backgroundColor = 'rgb(248,249,250)'
+    tercero.style.backgroundColor = 'rgb(248,249,250)'
+    cuarto.style.backgroundColor = '#001133'
+    cuarto.style.color = 'white'
+    segundo.style.color = 'rgb(160, 155, 155)'
+    tercero.style.color = 'rgb(160, 155, 155)'
+    quinto.style.color = 'rgb(160, 155, 155)'
+    sexto.style.color  = 'rgb(160, 155, 155)'
+    quinto.style.backgroundColor = 'rgb(248,249,250)'
+    sexto.style.backgroundColor = 'rgb(248,249,250)'
+  }
+
+  if(scroll1 >= 2100) {
+    segundo.style.backgroundColor = 'rgb(248,249,250)'
+    tercero.style.backgroundColor = 'rgb(248,249,250)'
+    cuarto.style.backgroundColor = 'rgb(248,249,250)'
+    quinto.style.backgroundColor = '#001133'
+    quinto.style.color = 'white'
+    segundo.style.color = 'rgb(160, 155, 155)'
+    cuarto.style.color = 'rgb(160, 155, 155)'
+    tercero.style.color = 'rgb(160, 155, 155)'
+    sexto.style.color  = 'rgb(160, 155, 155)'
+    sexto.style.backgroundColor = 'rgb(248,249,250)'
+  }
+
+  if(scroll1 >= 3000) {
+    segundo.style.backgroundColor = 'rgb(248,249,250)'
+    tercero.style.backgroundColor = 'rgb(248,249,250)'
+    cuarto.style.backgroundColor = 'rgb(248,249,250)'
+    quinto.style.backgroundColor = 'rgb(248,249,250)'
+    sexto.style.backgroundColor = '#001133'
+    sexto.style.color = 'white'
+    segundo.style.color = 'rgb(160, 155, 155)'
+    cuarto.style.color = 'rgb(160, 155, 155)'
+    quinto.style.color = 'rgb(160, 155, 155)'
+    tercero.style.color  = 'rgb(160, 155, 155)'
+  }
+
+  
+})
